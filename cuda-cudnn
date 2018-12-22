@@ -1,0 +1,1 @@
+sudo sh cuda_cudnn_intern.sh $1 $2 $3 $4
