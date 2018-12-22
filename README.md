@@ -5,13 +5,13 @@ cuda_cudnn各版本在linux管理和切换的脚本
 # 准备步骤：
 1. chmod +x cuda-cudnn
 2. 默认软链为目录下的 cuda_cudnn_sflink 文件夹，要修改的话 修改cuda_cudnn_intern.sh里的softlink
-3. 加环境变量：
-   vim ~/.bashrc
-   加入下面四行
-   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:[softlink路径]/lib64
-   export PATH=$PATH:[softlink路径]/bin
-   export CUDA_HOME=$CUDA_HOME:[softlink路径]
-   export PATH=$PATH:[cuda_cudnn路径]
+3. --加环境变量：
+   - vim ~/.bashrc
+   - 加入下面四行
+   - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:[softlink路径]/lib64
+   - export PATH=$PATH:[softlink路径]/bin
+   - export CUDA_HOME=$CUDA_HOME:[softlink路径]
+   - export PATH=$PATH:[cuda_cudnn路径]
 4. source ~/.bashrc
 5. 重新登录一下
 
