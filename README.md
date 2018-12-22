@@ -1,0 +1,2 @@
+# transfor_cuda_cudnn_version
+cuda_cudnn各版本在linux管理和切换的脚本
